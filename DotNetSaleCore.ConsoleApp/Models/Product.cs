@@ -22,6 +22,6 @@ namespace DotNetSaleCore.ConsoleApp.Models
         [JsonIgnore] // Microsoft Docs + JsonIgnore
         public virtual Category Category { get; set; }
 
-        public ICollection<DotNetSaleCore.ConsoleApp.Models.OrderDetails> OrderDetails { get; set; }
+        public ICollection<OrderDetails> OrderDetails { get; set; }
     }
 }
