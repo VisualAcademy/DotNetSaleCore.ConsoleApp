@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="DotNetSaleCore.ConsoleApp.Models.Customer">
-    <Position X="2" Y="1.25" Width="1.5" />
+    <Position X="3.25" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAECAEAAAAAAAAAAAAAAAAAAAAAAAAACAAAAIAAAAAg=</HashCode>
       <FileName>Models\Customer.cs</FileName>
@@ -11,7 +11,7 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="DotNetSaleCore.ConsoleApp.Models.Order">
-    <Position X="5.5" Y="1.25" Width="1.5" />
+    <Position X="6.75" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>CAECAAAAAAAAAAAAABAAAAAAAAAAABAAAAAAACAAAAA=</HashCode>
       <FileName>Models\Order.cs</FileName>
@@ -21,20 +21,30 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="DotNetSaleCore.ConsoleApp.Models.OrderDetails">
-    <Position X="5.5" Y="4" Width="1.5" />
+    <Position X="6.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
       <FileName>Models\OrderDetails.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DotNetSaleCore.ConsoleApp.Models.Product">
-    <Position X="2" Y="4" Width="1.5" />
+    <Position X="3.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAQAAAAAAABAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\Product.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
       <Property Name="OrderDetails" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DotNetSaleCore.ConsoleApp.Models.Category">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\Category.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Products" />
     </ShowAsCollectionAssociation>
   </Class>
   <Font Name="맑은 고딕" Size="9" />
